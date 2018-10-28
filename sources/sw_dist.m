@@ -1,8 +1,8 @@
 clc
 clear all
 
-load('C:\Users\aless\Desktop\Analisi Dati Biomedici\tesina_adb\datasets\dataset_seq.mat'); % sequenze genomiche
-load('C:\Users\aless\Desktop\Analisi Dati Biomedici\tesina_adb\datasets\classes.mat'); % classi
+load('C:\Users\alessio\Documents\MATLAB\tesina_adb\datasets\dataset_seq.mat'); % sequenze genomiche
+load('C:\Users\alessio\Documents\MATLAB\tesina_adb\datasets\classes.mat'); % classi
 
 num_sqn = length(dataset);
 dists = zeros(num_sqn,num_sqn);
