@@ -1,8 +1,8 @@
 clc;
 clear all;
 
-load('C:\Users\alessio\Documents\MATLAB\tesina_adb\distances\sw\sw.mat'); % carico le distanze 'dists'
-load('C:\Users\alessio\Documents\MATLAB\tesina_adb\datasets\classes.mat'); % carico le classi 'classes'
+load('C:\Users\aless\Documents\MATLAB\tesina_adb\distances\sw\sw.mat'); % carico le distanze 'dists'
+load('C:\Users\aless\Documents\MATLAB\tesina_adb\datasets\classes.mat'); % carico le classi 'classes'
 
 % inizializzazione variabili modello di classificazione.
 n = length(dists);
